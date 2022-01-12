@@ -47,3 +47,7 @@ void vla_log2_double(double* dst, double* src, uint32_t vector_len);
 void vla_log10_single(float* dst, float* src, uint32_t vector_len);
 
 void vla_log10_double(double* dst, double* src, uint32_t vector_len);
+
+void vla_tanh_double(double* dst, double* src, uint32_t vector_len);
+
+void vla_tanh_single(float* dst, float* src, uint32_t vector_len);
